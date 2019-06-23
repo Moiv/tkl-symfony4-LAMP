@@ -1,0 +1,12 @@
+#!/bin/sh -ex
+
+#get gpg file for sury.org php packages
+wget -O /etc/apt/trusted.gpg.d/php.sury.gpg https://packages.sury.org/php/apt.gpg
+
+#Update apt sources & install php7.2 packages
+apt-get update
+apt-get -y install php7.2 php7.2-opcache php7.2-mysql libapache2-mod-php7.2 php7.2-xml
+
+#Disable php7.0 & Enable php7.2
+a2dismod php7.0
+a2enmod php7.2
