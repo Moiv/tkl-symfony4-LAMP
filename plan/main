@@ -1,11 +1,13 @@
 #include <turnkey/base>
-#include <turnkey/lamp72>
+#include <turnkey/lamp>
 
 libapache2-mod-python    # Apache 2 module that embeds Python within the server
 python-mysqldb           # A Python interface to MySQL
 
 libapache2-mod-perl2     # Integration of perl with the Apache2 web server
 libdbd-mysql-perl        # A Perl5 database interface to the MySQL database
+
+apt-transport-https	 # Required to download php7.2 packages from sury.org
 
 php-xdebug
 php-pear
