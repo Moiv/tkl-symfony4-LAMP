@@ -1,6 +1,5 @@
-LAMP Stack - Web Stack (MySQL)
-With Symfony 4 Framework
-==============================
+LAMP Stack - Web Stack (MySQL) With Symfony 4 Framework
+=======================================================
 
 LAMP stack is a popular open source web platform commonly used to run
 dynamic web sites and servers. It includes Linux, Apache, MariaDB (MySQL
